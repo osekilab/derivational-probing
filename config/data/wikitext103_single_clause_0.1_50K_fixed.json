@@ -1,0 +1,22 @@
+{
+    "OUTPUT_PREFIX": "wikitext103_single_clause_0.1_50K_fixed",
+    "SOURCE_FILES": [
+        "wikitext103_para/all_post_edit.conllx"
+    ],
+    "ignore_dep_list": [
+        "acl",
+        "advcl",
+        "relcl",
+        "ccomp",
+        "csubj",
+        "xcomp",
+        "csubjpass",
+        "aux",
+        "auxpass",
+        "dep",
+        "punct"
+    ],
+    "punctuation_list": [",", ".", ":", ";", "-", "--", "...", "``", "''"],
+    "threshold_ratio": 0.1,
+    "max_observation": 50000
+}
