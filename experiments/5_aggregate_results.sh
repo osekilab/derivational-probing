@@ -1,14 +1,14 @@
 #!/bin/bash
 source .venv/bin/activate
 export PYTHONPATH=.
-exp_name="wikitext103_single_clause_0.1_50K_fixed"
+exp_name="wikitext103_single_clause_0.1_50K"
 
 target_test_sets=(
     "test"
-    "prep_fixed_good"
-    "double_prep_fixed_good"
+    "prep_good"
+    "double_prep_good"
     "prep_obj_good"
-    "simple_svo_fixed_good"
+    "simple_svo_good"
 )
 
 for target_test_set in "${target_test_sets[@]}"; do

@@ -163,3 +163,4 @@ data/*
 results/
 *.o*
 .DS_Store
+!data/marvin/

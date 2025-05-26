@@ -117,7 +117,7 @@ def process_sentences(pos_sent_file, neg_sent_file, tokenizer, model, device):
 
 def main():
     model_sizes = ["base", "large"]
-    data_prefixes = ["wikitext103_single_clause_0.1_50K_fixed_cumulative"]
+    data_prefixes = ["wikitext103_single_clause_0.1_50K_cumulative"]
     target_test_sets = [
         "prep_fixed",
         "double_prep_fixed",

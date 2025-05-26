@@ -166,7 +166,7 @@ def main():
     data_prefixes = [
         # "pmb_minimum_filtering_cumulative",
         # "wikitext103_single_clause_0.1",
-        "wikitext103_single_clause_0.1_50K_fixed_cumulative"
+        "wikitext103_single_clause_0.1_50K_cumulative"
     ]
     target_test_sets = [
         "simple_svo_fixed",
